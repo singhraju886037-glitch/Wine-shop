@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Delhi General Store</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;background:#f3f4f6;color:#222}
+header{background:#222;color:#fff;text-align:center;padding:22px 12px}
+header h1{margin:0 0 6px;font-size:28px}
+header p{margin:0}
+.container{max-width:600px;margin:auto;padding:14px}
+.product{background:#fff;border-radius:14px;padding:16px;margin-bottom:14px;
+box-shadow:0 2px 10px rgba(0,0,0,.10)}
+.product img{width:100%;height:190px;object-fit:cover;border-radius:10px;background:#ddd}
+.product h2{margin:12px 0 6px}
+.price{font-size:22px;font-weight:bold;margin:8px 0 14px}
+button{width:100%;padding:13px;border:0;border-radius:9px;background:#16803c;
+color:#fff;font-size:17px;font-weight:bold}
+.note{text-align:center;font-size:13px;color:#666;padding:8px}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Delhi General Store</h1>
+  <p>रोज़मर्रा की जरूरत का सामान</p>
+</header>
+
+<div class="container">
+
+  <div class="product">
+    <img src="https://via.placeholder.com/600x400?text=Product+1" alt="सामान">
+    <h2>किराना सामान पैक</h2>
+    <p>घर के रोज़मर्रा के उपयोग के लिए।</p>
+    <div class="price">₹299</div>
+    <a href="upi://pay?pa=yourupi@upi&pn=Delhi%20General%20Store&am=299&cu=INR">
+      <button>UPI से Pay करें</button>
+    </a>
+  </div>
+
+  <div class="product">
+    <img src="https://via.placeholder.com/600x400?text=Product+2" alt="सामान">
+    <h2>घरेलू सामान</h2>
+    <p>उपयोगी घरेलू सामान।</p>
+    <div class="price">₹199</div>
+    <a href="upi://pay?pa=yourupi@upi&pn=Delhi%20General%20Store&am=199&cu=INR">
+      <button>UPI से Pay करें</button>
+    </a>
+  </div>
+
+  <p class="note">डेमो वेबसाइट — असली भुगतान के लिए अपनी वैध UPI ID लगाएँ।</p>
+</div>
+
+</body>
+</html>
